@@ -1,0 +1,36 @@
+{
+  "downloaded": "2026-11-09",
+  "region": "Кемеровская область",
+  "supplier": "ПАО Кузбассэнергосбыт",
+  "source": "https://www.atsenergo.ru/results/market/calcfacthour",
+  "files": {
+    "202509_KUZBSBYT_32_calcfacthour.xls": {
+      "url": "https://www.atsenergo.ru/dload/calcfacthour_regions/202509_KUZBSBYT_32_calcfacthour.xls",
+      "sha256": "be629ef1340ffd5d5673f3344faa0af6ef351c06dfac5b2887ef3daa8b26e74a"
+    },
+    "202609_KUZBSBYT_32_calcfacthour.xlsx": {
+      "url": "https://www.atsenergo.ru/dload/calcfacthour_regions/202609_KUZBSBYT_32_calcfacthour.xlsx",
+      "sha256": "f6480a2c3eac4a9fa100599b03def21cff31dd14c17d615031534519eb7a511b"
+    }
+  },
+  "train_max_date": "2025-09-30",
+  "cutoff": "2026-07-31",
+  "train_frequencies": {
+    "15": 3,
+    "16": 2,
+    "17": 17
+  },
+  "test_frequencies": {
+    "15": 3,
+    "16": 1,
+    "17": 18
+  },
+  "assumptions": {
+    "load_mw": 3,
+    "battery_mw": 1,
+    "battery_mwh": 2,
+    "daily_discharge_mwh": 1,
+    "usable_energy": "AC-side budget; charging/losses/cost not modelled",
+    "time": "АТС hour labels retained without timezone conversion"
+  }
+}
